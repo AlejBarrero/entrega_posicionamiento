@@ -15,23 +15,31 @@ body {
     color: #9ad79b;
 }
 
-h1 {
+header {
     border-style: dotted;
     border-width: 2px;
     padding: 5px 5px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: #000000;
 }
 
 .content {
     border-style: dotted;
     border-width: 2px;
-    margin-top: 20px;
-    padding: 20px 20px 10px 20px;
+    margin-top: 80px;
+    padding: 20px;
 }
 
 .sidebar {
     border-style: dotted;
     border-width: 2px;
-    margin: 20px 0px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    left: 1650px;
+    width: 200px;
     padding: 25px;
 }
 
@@ -39,11 +47,15 @@ h1 {
     border-style: dotted;
     border-width: 2px;
     padding: 10px;
+    text-align: center;
 }
 
 footer {
     border-style: dotted;
     border-width: 2px;
-    margin-top: 300px;
+    margin-top: 190px;
     padding: 10px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
 }
